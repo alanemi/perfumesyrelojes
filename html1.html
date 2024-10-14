@@ -11,15 +11,18 @@
             padding: 0;
             display: flex;
             flex-direction: column;
+            align-items: center;
+            justify-content: center;
             min-height: 100vh;
             background-color: #f0f0f0;
         }
         header {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             background-color: #f0f0f0;
             padding: 10px 20px;
+            width: 100%;
         }
         nav a {
             margin: 0 15px;
@@ -48,13 +51,13 @@
             text-align: center;
         }
         .container {
-    display: flex;
-    justify-content: center;  
-    flex-wrap: wrap;        
-    width: 100%;
-    max-width: 800px;
-    margin-top: 20px;
-}
+            display: flex;
+            justify-content: center;  
+            flex-wrap: wrap;        
+            width: 100%;
+            max-width: 800px;
+            margin-top: 20px;
+        }
         .profile {
             display: flex;
             flex-direction: column;
@@ -106,7 +109,7 @@
             background-color: #f0f0f0;
             padding: 10px 20px;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
         }
     </style>
@@ -115,14 +118,12 @@
 
     <!-- Header -->
     <header>
-        <div>
-            <nav>
-                <a href="index.html">Logo</a>
-                <a href="index.html">Hogar</a>
-                <a href="html1.html">Acerca</a>
-                <a href="html2.html">Contacto</a>
-            </nav>
-        </div>
+        <nav>
+            <a href="index.html">Logo</a>
+            <a href="index.html">Hogar</a>
+            <a href="html1.html">Acerca</a>
+            <a href="html2.html">Contacto</a>
+        </nav>
         <div>
             <button class="btn">Acceso</button>
             <button class="btn">Suscribirse</button>
